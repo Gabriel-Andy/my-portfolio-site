@@ -14,7 +14,7 @@ const NavBar = () => {
           </button>
         </div>
         <PagesLinks styleClass="nav-links"></PagesLinks>
-      </div>s
+      </div>
     </nav>
   )
 }
