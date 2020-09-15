@@ -2,6 +2,7 @@ import React from "react"
 import Image from "gatsby-image"
 import { Link } from "gatsby"
 import { graphql, useStaticQuery } from "gatsby"
+import SocialMediaLinks from "../constants/SocialMediaLinks"
 const query = graphql`
   {
     file(relativePath: { eq: "gabriel.jpg" }) {
@@ -34,6 +35,7 @@ const Hero = () => {
           </div>
         </article>
         <Image fluid={fluid} className="hero-img" />
+        <SocialMediaLinks styleClass = {styleClass} />
       </div>
     </header>
   )

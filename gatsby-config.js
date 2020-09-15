@@ -7,13 +7,20 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `assets`,
         path: `${__dirname}/src/assets/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `SociauxMedia`,
+        path: `${__dirname}/src/SociauxMedia/`,
       },
     },
   ],
