@@ -32,10 +32,10 @@ const Hero = () => {
             <Link to="/contact" className="btn">
               contact me
             </Link>
+            <SocialMediaLinks styleClass="styleClass" />
           </div>
         </article>
         <Image fluid={fluid} className="hero-img" />
-        <SocialMediaLinks styleClass = {styleClass} />
       </div>
     </header>
   )

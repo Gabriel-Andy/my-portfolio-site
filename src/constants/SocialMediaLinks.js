@@ -37,7 +37,7 @@ const query = graphql`
     allFile(filter: { sourceInstanceName: { eq: "SociauxMedia" } }) {
       nodes {
         childImageSharp {
-          fixed(height: 25, width: 25) {
+          fixed(height: 20, width: 20) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -52,15 +52,14 @@ const SocialMediaLinks = ({ styleClass }) => {
   } = useStaticQuery(query)
 
   return (
-    <ul className={`page-links ${styleClass ? styleClass : ""}`}>
+    <ul className="sociauMediaIcon">
       {alldata.map(link => {
         return (
           <li key={link.id}>
             <a href={link.url}>
               <Image
                 fixed={nodes[link.id].childImageSharp.fixed}
-                alt={link.name} 
-                className = "img"
+                alt={link.name}
               />
             </a>
           </li>
