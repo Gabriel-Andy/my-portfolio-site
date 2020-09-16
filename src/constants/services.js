@@ -33,14 +33,14 @@ export default [
     text: `I am able to communicate ideas in a brief and concise way`,
   },
   {
-    id: 4,
+    id: 5,
     icon: <FaAd className="service-icon" />,
     title: "affiliate marketing",
     text: `I understand how Facebook ads and Google ads work,and have built so many projects. In Addition, 
     I know how to use Amazon, Ebay, Clickbank to sell or promote product. In general, I understand how marketing works  `,
   },
   {
-    id: 5,
+    id: 6,
     icon: <FaSearchengin className="service-icon" />,
     title: "Search Engine Optimization",
     text: `I know how to make website have authority even if it is the new site.
