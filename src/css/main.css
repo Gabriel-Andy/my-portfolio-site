@@ -624,7 +624,7 @@ picture img {
 /* end of the projects section */
 
 /* start of the blog section */
-*/ .blog {
+.blog {
   display: block;
   margin-bottom: 2rem;
   background: var(--clr-grey-10);
@@ -693,9 +693,9 @@ picture img {
     height: 13.75rem;
   }
 }
-
 /* end of the blog section */
-/* start of the page section*/
+
+/* start of the page  style*/
 .blog-template,
 .projects-page,
 .blog-page,
@@ -716,16 +716,13 @@ picture img {
   color: var(--clr-primary-1);
   margin-bottom: 2rem;
 }
-/*
-===============
-Blog Page
-===============
-*/
+/* end of the page style */
+/* start of blog Page*/
 .blog-page .blog {
   background: var(--clr-white);
 }
-/* end of the page section 
-/* start of the blog template */
+/* end of the blog page */
+/* star the blog template */
 .blog-template {
   padding: 5rem 0;
 }
