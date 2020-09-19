@@ -52,7 +52,7 @@ const SocialMediaLinks = ({ styleClass }) => {
   } = useStaticQuery(query)
 
   return (
-    <ul className="sociauMediaIcon">
+    <ul className= {`sociauMediaIcon social-links ${styleClass ? styleClass : ""}`}>
       {alldata.map(link => {
         return (
           <li key={link.id}>

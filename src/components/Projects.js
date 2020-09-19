@@ -3,7 +3,7 @@ import Title from "./Title"
 import Project from "./Project"
 import { Link } from "gatsby"
 const Projects = props => {
-  const { projects, title, showLinks } = props
+  const { projects, title, showLink } = props
   return (
     <section className="section projects">
       <Title title={title} />
@@ -12,7 +12,7 @@ const Projects = props => {
           return <Project key={project.id} index={index} {...project} />
         })}
       </div>
-      {showLinks && (
+      {showLink && (
         <Link to="projects" className="btn center-btn">
           projects
         </Link>
