@@ -5,10 +5,19 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "WebDev Portfolio",
+    description: "This is WebDev Portfolio Site",
+    author: "@webdev",
+    twitterUsername: "@FonoGabriel",
+    image: "/twitter1.jpg",
+    siteUrl: "https://fonoandy.netlify.app/",
+  },
   plugins: [
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -36,6 +45,20 @@ module.exports = {
         //   identifier: "",
         //   password: "",
         // },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Roboto`,
+            variants: [`400`, `700`],
+          },
+          {
+            family: `Open Sans`,
+          },
+        ],
       },
     },
   ],
