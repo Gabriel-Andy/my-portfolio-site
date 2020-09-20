@@ -11,7 +11,7 @@ module.exports = {
     author: "@webdev",
     twitterUsername: "@FonoGabriel",
     image: "/twitter1.jpg",
-    siteUrl: "https://fonoandy.netlify.app/",
+    siteUrl: "https://fonoandy.netlify.app",
   },
   plugins: [
     `gatsby-plugin-sharp`,
