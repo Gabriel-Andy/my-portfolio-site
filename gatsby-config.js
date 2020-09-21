@@ -10,7 +10,7 @@ module.exports = {
     description: "This is WebDev Portfolio Site",
     author: "@webdev",
     twitterUsername: "@FonoGabriel",
-    image: "/twitter1.jpg",
+    image: "/twitter-img.jpg",
     siteUrl: "https://fonogabriel.netlify.app",
   },
   plugins: [
