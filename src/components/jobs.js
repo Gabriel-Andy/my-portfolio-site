@@ -15,7 +15,6 @@ const query = graphql`
           id
           name
         }
-        strapiId
       }
     }
   }
@@ -48,7 +47,7 @@ const Jobs = () => {
         </div>
         <article className="job-info">
           <h3>{position}</h3>
-          <h4>{position}</h4>
+          <h4>{company}</h4>
           <p className="job-date">{date}</p>
           {Desc.map(item => {
             return (
