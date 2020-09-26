@@ -13,31 +13,25 @@ const alldata = [
     id: 1,
 
     url: "https://github.com/Gabriel-Andy/",
-    name: "twitter",
+    name: "github",
   },
   {
     id: 2,
     url: "https://www.instagram.com/gabrielandy47/",
     name: "instagram",
   },
-
   {
     id: 3,
-    url: "https://github.com/Gabriel-Andy/",
-    name: "github",
-  },
-  {
-    id: 4,
     url: "https://twitter.com/FonoGabriel",
-    name: "github",
+    name: "twitter",
   },
 ]
-const query = graphql`
+const gabriel = graphql`
   {
     allFile(filter: { sourceInstanceName: { eq: "SociauxMedia" } }) {
       nodes {
         childImageSharp {
-          fixed(height: 20, width: 20) {
+          fixed(width: 25, height: 25) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -49,10 +43,12 @@ const query = graphql`
 const SocialMediaLinks = ({ styleClass }) => {
   const {
     allFile: { nodes },
-  } = useStaticQuery(query)
+  } = useStaticQuery(gabriel)
 
   return (
-    <ul className= {`sociauMediaIcon social-links ${styleClass ? styleClass : ""}`}>
+    <ul
+      className={`sociauMediaIcon social-links ${styleClass ? styleClass : ""}`}
+    >
       {alldata.map(link => {
         return (
           <li key={link.id}>

@@ -13,7 +13,7 @@ export const Blogs = props => {
         })}
       </div>
       {showLink && (
-        <Link to="/blog" className="btn center-btn bottom-center" >
+        <Link to="/blog" className="btn center-btn">
           blog{" "}
         </Link>
       )}
@@ -21,3 +21,4 @@ export const Blogs = props => {
   )
 }
 export default Blogs
+

@@ -7,18 +7,18 @@ import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
 import SEO from "../components/SEO"
-
-export default ({ data }) => {
+const home = ({ data }) => {
   const {
     allStrapiProjects: { nodes: projects },
     allStrapiBlogs: { nodes: blogs },
+    allStrapiJobs: {nodes:jobs}
   } = data
   return (
     <Layout>
       <SEO title="home" description=" this is our home page" />
       <Hero />
       <Services />
-      <Jobs title="experience" />
+      <Jobs title="experience" jobs={jobs} />
       <Projects projects={projects} title="featured projects" showLink />
       <Blogs blogs={blogs} title="blogs" showLink />
     </Layout>
@@ -64,5 +64,19 @@ export const query = graphql`
         }
       }
     }
+
+    allStrapiJobs(sort: { fields: strapiId, order: DESC }) {
+      nodes {
+        strapiId
+        company
+        date
+        position
+        Desc {
+          id
+          name
+        }
+      }
+    }
   }
 `
+export default home
