@@ -7,11 +7,12 @@ import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
 import SEO from "../components/SEO"
+
 const home = ({ data }) => {
   const {
     allStrapiProjects: { nodes: projects },
     allStrapiBlogs: { nodes: blogs },
-    allStrapiJobs: {nodes:jobs}
+    allStrapiJobs: { nodes: jobs },
   } = data
   return (
     <Layout>

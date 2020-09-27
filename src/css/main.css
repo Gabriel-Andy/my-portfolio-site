@@ -167,6 +167,7 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
 .section-title {
   margin-top: 2rem;
   margin-bottom: 4rem;
@@ -900,6 +901,7 @@ picture img {
 .blog-page,
 .error-page,
 .about-page,
+.education-page,
 .contact-page {
   background: var(--clr-grey-10);
   min-height: calc(100vh - 5rem - 9rem);
@@ -976,7 +978,30 @@ picture img {
   }
 }
 /* end of the about page section */
+.graduation-progress {
+  display: flex;
+  place-items: center;
+}
+.progres {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: var(--clr-primary-5);
+  margin-left: 0.5rem;
+}
+.description-education {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom:2rem;
+  letter-spacing:.05rem;
+}
+/* start of the education section */
 
+/* end of the education section */
+.education-page {
+  width: 100vw;
+  padding: 1rem 1rem;
+}
 /* star the blog template */
 .blog-template {
   padding: 5rem 0;
