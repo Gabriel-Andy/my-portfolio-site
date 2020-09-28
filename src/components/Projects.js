@@ -14,7 +14,7 @@ const Projects = props => {
       </div>
       {showLink && (
         <Link to="projects" className="btn center-btn">
-          projects
+          all projects
         </Link>
       )}
     </section>
