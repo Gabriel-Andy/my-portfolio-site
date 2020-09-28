@@ -9,21 +9,22 @@ const alldata = [
     url: "https://www.facebook.com/groups/546149442825819/",
     name: "facebook",
   },
+
   {
     id: 1,
-
-    url: "https://github.com/Gabriel-Andy/",
-    name: "github",
-  },
-  {
-    id: 2,
     url: "https://www.instagram.com/gabrielandy47/",
     name: "instagram",
   },
   {
-    id: 3,
+    id: 2,
     url: "https://twitter.com/FonoGabriel",
     name: "twitter",
+  },
+  {
+    id: 3,
+
+    url: "https://github.com/Gabriel-Andy/",
+    name: "github",
   },
 ]
 const gabriel = graphql`

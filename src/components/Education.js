@@ -1,13 +1,6 @@
 import React from "react"
 import Title from "../components/Title"
-import Image from "gatsby"
-
-import {
-  FaGraduationCap,
-  FaCheck,
-  FaRegPaperPlane,
-  FaHome,
-} from "react-icons/fa"
+import Resources from "../constants/Resources"
 
 const Education = ({ title }) => {
   return (
@@ -33,43 +26,29 @@ const Education = ({ title }) => {
               part time computer science in college.You will find all the
               resources that I used down below.
             </p>
-            <div className="graduation-progress">
-              <h4>
-                <FaRegPaperPlane className="project-icon"> </FaRegPaperPlane>{" "}
-                graduation in computer science in progress
-                <span className="progres"></span>
-                <span className="progres"></span>
-                <span className="progres"></span>
-                <span className="progres"></span>
-                <span className="progres"></span>
-                <FaGraduationCap className="project-icon" />
+            <div className="container-graduation">
+              <div className="graduation-progress">
+                <h4 className="container-progress">
+                  graduation in computer science in progress
+                  <span className="progres"></span>
+                  <span className="progres"></span>
+                  <span className="progres"></span>
+                  <span className="progres"></span>
+                  <span className="progres"></span>
+                </h4>
+              </div>
+
+              <h4>resources I used to teach myself coding at home </h4>
+              <ul>
+                {Resources.map(resource => {
+                  return <li key={resource.id}>{resource.resource}</li>
+                })}
+              </ul>
+              <h4 className="graduation-progress">
+                I graduated with the bachelor degree in civil engineering in
+                2017 with 3.9 GPA
               </h4>
             </div>
-
-            <h4>
-              <FaRegPaperPlane className="project-icon" />
-              resources I used to teach myself coding at home{" "}
-              <FaHome className="project-icon" />
-            </h4>
-            <ul>
-              <li>
-                learning React by <span>Alex Bank && Eve Porcello</span>
-              </li>
-              <li>
-                Head first html css javascript php by <span>Oreily</span>
-              </li>
-              <li>FreeCodeCamp.com </li>
-              <li>codingphase.com </li>
-              <li>youtube.com </li>
-              <li>stackoverflow </li>
-              <li>W3school.com </li>
-              <li>introduction to CS50 by havard university</li>
-            </ul>
-            <h4>
-              <FaRegPaperPlane className="project-icon" />I graduated with the
-              bachelor degree in civil engineering in 2017 with 4.2GPA
-              <FaCheck className="project-icon" />
-            </h4>
           </article>
         </div>
       </section>

@@ -48,6 +48,7 @@
   box-sizing: border-box;
 }
 body {
+  
   font-family: var(--ff-secondary);
   background: var(--clr-white);
   color: var(--clr-grey-1);
@@ -817,6 +818,7 @@ picture img {
 /* end of the blog section */
 /* start of the footer section */
 .footer {
+  width: 100vw;
   height: 9rem;
   background: #222;
   text-align: center;
@@ -978,22 +980,31 @@ picture img {
   }
 }
 /* end of the about page section */
+.container-graduation {
+  display: grid;
+  grid-template-columns: auto;
+  grid-column-gap: 2rem;
+}
 .graduation-progress {
   display: flex;
-  place-items: center;
+  justify-content: left;
+  align-items: center;
+}
+.icon {
+  display: block;
 }
 .progres {
   display: inline-block;
   width: 0.5rem;
   height: 0.5rem;
-  background: var(--clr-primary-5);
+
   margin-left: 0.5rem;
 }
 .description-education {
   font-size: 1rem;
   font-weight: 200;
-  margin-bottom:2rem;
-  letter-spacing:.05rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.05rem;
 }
 /* start of the education section */
 
@@ -1002,6 +1013,44 @@ picture img {
   width: 100vw;
   padding: 1rem 1rem;
 }
+/* end of the sidebar */
+/* start of the sidebar animation */
+
+.container-progress .progres {
+  animation: Progress 1s ease-in-out 0.3s infinite;
+}
+.container-progress .progres:nth-of-type(1) {
+  animation-delay: 1s;
+}
+.container-progress .progres:nth-of-type(2) {
+  animation-delay: 3s;
+}
+.container-progress .progres:nth-of-type(3) {
+  animation-delay: 5s;
+}
+.container-progress .progres:nth-of-type(4) {
+  animation-delay: 7s;
+}
+.container-progress .progres:nth-of-type(5) {
+  animation-delay: 9s;
+}
+@keyframes Progress {
+  from {
+    background: var(--clr-primary-5);
+  }
+  to {
+    background-color: black;
+  }
+}
+.container-graduation ul {
+  margin: 1rem 0;
+}
+.container-graduation ul li {
+  margin-left: 5%;
+  margin-bottom: 0.5rem;
+  list-style-type: circle;
+}
+
 /* star the blog template */
 .blog-template {
   padding: 5rem 0;
