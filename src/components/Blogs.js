@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 export const Blogs = props => {
   const { blogs, title, showLink } = props
   return (
-    <section>
+    <section className = "section" >
       <Title title={title} />
       <div className="section-center blogs-center">
         {blogs.map(blog => {
@@ -14,7 +14,7 @@ export const Blogs = props => {
       </div>
       {showLink && (
         <Link to="/blog" className="btn center-btn">
-          blog{" "}
+          all blogs{" "}
         </Link>
       )}
     </section>

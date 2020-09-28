@@ -48,7 +48,6 @@
   box-sizing: border-box;
 }
 body {
-  
   font-family: var(--ff-secondary);
   background: var(--clr-white);
   color: var(--clr-grey-1);
@@ -541,6 +540,7 @@ picture img {
 
 .jobs-center {
   width: 80vw;
+  height:auto;
   margin: 0 auto;
   max-width: var(--max-width);
 }
@@ -548,7 +548,7 @@ picture img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .job-btn {
   background: transparent;
@@ -571,7 +571,7 @@ picture img {
   box-shadow: 0 2px var(--clr-primary-5);
 }
 .job-info {
-  min-height: 420px;
+  min-height: 300px;
 }
 .job-info h3 {
   font-weight: 400;
