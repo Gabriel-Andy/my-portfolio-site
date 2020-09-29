@@ -17,11 +17,18 @@ const alldata = [
   },
   {
     id: 2,
+
+    url:
+      "https://www.homeis.com/fr-africans-in-usa/groups/codingmindset-5e8d02bc22534b00114b4610",
+    name: "github",
+  },
+  {
+    id: 3,
     url: "https://twitter.com/FonoGabriel",
     name: "twitter",
   },
   {
-    id: 3,
+    id: 4,
 
     url: "https://github.com/Gabriel-Andy/",
     name: "github",
