@@ -3,6 +3,7 @@
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 
 exports.__esModule = true;
+exports.getStaticQueryResults = getStaticQueryResults;
 exports.default = exports.publicLoader = exports.setLoader = exports.ProdLoader = exports.BaseLoader = exports.PageResourceStatus = void 0;
 
 var _prefetch = _interopRequireDefault(require("./prefetch"));
@@ -104,7 +105,7 @@ class BaseLoader {
     // }
     this.pageDb = new Map();
     this.inFlightDb = new Map();
-    this.staticQueryDb = new Map();
+    this.staticQueryDb = {};
     this.pageDataDb = new Map();
     this.prefetchTriggered = new Set();
     this.prefetchCompleted = new Set();
@@ -272,15 +273,15 @@ class BaseLoader {
       });
       const staticQueryBatchPromise = Promise.all(staticQueryHashes.map(staticQueryHash => {
         // Check for cache in case this static query result has already been loaded
-        if (this.staticQueryDb.has(staticQueryHash)) {
-          const jsonPayload = this.staticQueryDb.get(staticQueryHash);
+        if (this.staticQueryDb[staticQueryHash]) {
+          const jsonPayload = this.staticQueryDb[staticQueryHash];
           return {
             staticQueryHash,
             jsonPayload
           };
         }
 
-        return this.memoizedGet(`${__PATH_PREFIX__}/static/d/${staticQueryHash}.json`).then(req => {
+        return this.memoizedGet(`${__PATH_PREFIX__}/page-data/sq/d/${staticQueryHash}.json`).then(req => {
           const jsonPayload = JSON.parse(req.responseText);
           return {
             staticQueryHash,
@@ -294,7 +295,7 @@ class BaseLoader {
           jsonPayload
         }) => {
           staticQueryResultsMap[staticQueryHash] = jsonPayload;
-          this.staticQueryDb.set(staticQueryHash, jsonPayload);
+          this.staticQueryDb[staticQueryHash] = jsonPayload;
         });
         return staticQueryResultsMap;
       });
@@ -409,7 +410,7 @@ class BaseLoader {
   isPageNotFound(rawPath) {
     const pagePath = (0, _findPath.findPath)(rawPath);
     const page = this.pageDb.get(pagePath);
-    return page && page.notFound === true;
+    return !page || page.notFound;
   }
 
   loadAppData(retries = 0) {
@@ -536,3 +537,7 @@ const publicLoader = {
 exports.publicLoader = publicLoader;
 var _default = publicLoader;
 exports.default = _default;
+
+function getStaticQueryResults() {
+  return instance.staticQueryDb;
+}
