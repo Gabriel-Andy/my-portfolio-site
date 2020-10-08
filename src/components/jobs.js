@@ -34,7 +34,7 @@ const Jobs = ({ jobs }) => {
               return (
                 <div key={item.id} className="job-desc">
                   <FaAngleDoubleRight className="job-icon"></FaAngleDoubleRight>
-                  <p>{item.name}</p>
+                  <p>{item.title}</p>
                 </div>
               )
             })}

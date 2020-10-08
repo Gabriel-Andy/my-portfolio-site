@@ -3,7 +3,6 @@ import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import Projects from "../components/Projects"
 
-
 const ProjectsPage = ({
   data: {
     allStrapiProjects: { nodes: projects },
@@ -35,7 +34,7 @@ export const query = graphql`
           }
         }
         stack {
-          name
+          title
           id
         }
       }

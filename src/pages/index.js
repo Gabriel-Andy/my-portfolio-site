@@ -35,7 +35,7 @@ export const query = graphql`
         position
         desc {
           id
-          name
+          title
         }
       }
     }
@@ -55,7 +55,7 @@ export const query = graphql`
           }
         }
         stack {
-          name
+          title
           id
         }
       }
