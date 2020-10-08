@@ -45,8 +45,8 @@ const Education = ({ title }) => {
                 })}
               </ul>
               <h4 className="graduation-progress">
-                I graduated with the bachelor degree in civil engineering in
-                2017 with 3.9 GPA
+                graduated with the bachelor degree in civil engineering on May
+                2016 with 4.2 GPA
               </h4>
             </div>
           </article>
