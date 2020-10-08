@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-contact-js": hot(preferDefault(require("/mnt/c/projects/portfolio/src/pages/contact.js"))),
   "component---src-pages-education-js": hot(preferDefault(require("/mnt/c/projects/portfolio/src/pages/education.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/mnt/c/projects/portfolio/src/pages/index.js"))),
-  "component---src-pages-projects-js": hot(preferDefault(require("/mnt/c/projects/portfolio/src/pages/projects.js")))
+  "component---src-pages-projects-js": hot(preferDefault(require("/mnt/c/projects/portfolio/src/pages/projects.js"))),
+  "component---src-templates-blog-template-js": hot(preferDefault(require("/mnt/c/projects/portfolio/src/templates/blog-template.js")))
 }
 

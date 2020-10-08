@@ -22,7 +22,7 @@ const About = ({
             <p>{info}</p>
             <div className="about-stack">
               {stack.map(item => {
-                return <span key={item.id}>{item.name}</span>
+                return <span key={item.id}>{item.title}</span>
               })}
             </div>
           </article>
@@ -38,7 +38,7 @@ export const query = graphql`
       nodes {
         stack {
           id
-          name
+          title
         }
         title
         info

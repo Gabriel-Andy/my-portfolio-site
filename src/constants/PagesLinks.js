@@ -26,7 +26,7 @@ const data = [
   {
     id: uuid(),
     text: "blog",
-    url: "/blog ",
+    url: "/blog",
   },
   {
     id: uuid(),
@@ -48,5 +48,3 @@ const PagesLinks = ({ styleClass }) => {
 }
 
 export default PagesLinks
-
-

@@ -8,7 +8,7 @@ import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
 import SEO from "../components/SEO"
 
-const home = () => {
+const home = ({ data }) => {
   const {
     allStrapiJobs: { nodes: jobs },
     allStrapiProjects: { nodes: projects },
@@ -19,16 +19,16 @@ const home = () => {
       <SEO title="home" description=" this is our home page" />
       <Hero />
       <Services />
-      <Jobs title="experience" />
-      <Projects projects={projects} title="featured projects" showLink /> 
-       <Blogs blogs={blogs} title="blogs" showLink />
+      <Jobs title="experience" jobs={jobs} />
+      <Projects projects={projects} title="featured projects" showLink />
+      <Blogs blogs={blogs} title="blogs" showLink />
     </Layout>
   )
 }
 export const query = graphql`
   {
     allStrapiJobs(sort: { fields: strapiId, order: DESC }) {
-     data:nodes {
+      nodes {
         strapiId
         company
         date
@@ -39,47 +39,45 @@ export const query = graphql`
         }
       }
     }
-  }
-  allStrapiProjects(filter: { featured: { eq: true } }) {
-  nodes {
-    github
-    id
-    description
-    title
-    url
-    image {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
+
+    allStrapiProjects(filter: { featured: { eq: true } }) {
+      nodes {
+        github
+        id
+        description
+        title
+        url
+        image {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stack {
+          name
+          id
         }
       }
     }
-    stack {
-      name
-      id
-    }
-  }
-}
-allStrapiBlogs(sort: { fields: date, order: DESC }, limit: 3) {
-  nodes {
-    slug
-    content
-    description
-    date(formatString: "MMMM, Do,YYYY")
-    id
-    title
-    category
-    image {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
+    allStrapiBlogs(sort: { fields: date, order: DESC }, limit: 3) {
+      nodes {
+        slug
+        content
+        description
+        date(formatString: "MMMM, Do,YYYY")
+        id
+        title
+        category
+        image {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
         }
       }
     }
   }
-}
 `
 export default home
-
-
-
