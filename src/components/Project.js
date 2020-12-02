@@ -27,5 +27,5 @@ const Project = ({ description, title, github, image, url, index, stack }) => {
     </article>
   )
 }
-
+ 
 export default Project

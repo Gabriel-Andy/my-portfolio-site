@@ -15,6 +15,7 @@ const Services = () => {
               <h4>{title}</h4>
               <div className="underline"></div>
               <p>{text}</p>
+            
             </article>
           )
         })}
