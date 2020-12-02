@@ -7,6 +7,7 @@ import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
 import SEO from "../components/SEO"
+import Github from "../components/Github"
 
 const home = ({ data }) => {
   const {
@@ -22,6 +23,7 @@ const home = ({ data }) => {
       <Jobs title="experience" jobs={jobs} />
       <Projects projects={projects} title="featured projects" showLink />
       <Blogs blogs={blogs} title="blogs" showLink />
+      <Github title="github activity" />
     </Layout>
   )
 }

@@ -540,7 +540,7 @@ picture img {
 
 .jobs-center {
   width: 80vw;
-  height:auto;
+  height: auto;
   margin: 0 auto;
   max-width: var(--max-width);
 }
@@ -1094,3 +1094,10 @@ picture img {
   margin: 3rem 0;
 }
 /* end of the blog template */
+/* github activities */
+.github-activity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* end of github activities */
