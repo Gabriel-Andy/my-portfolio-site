@@ -6,11 +6,12 @@ function Github({ title }) {
     <section className="section ">
       <Title title={title} />
       <div className="section-center github-activity">
-        <GitHubCalendar username="gabriel-andy" showTotalCount={false} />
+        <GitHubCalendar username="Gabriel-Andy" />
       </div>
       <a
         className="btn center-btn"
-        href="https://github.com/Gabriel-Andy?tab=repositories"
+        href="https://github.com/Gabriel-Andy
+        "
       >
         all repositories
       </a>

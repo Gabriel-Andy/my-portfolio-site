@@ -37,12 +37,13 @@ module.exports = {
       options: {
         apiURL: `http://localhost:1337`,
         queryLimit: 1000,
-        contentTypes: [`projects`, `blogs`,`jobs`],
+        contentTypes: [`projects`, `blogs`, `jobs`],
         singleTypes: [`about`],
       },
     },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
+      // resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
           {

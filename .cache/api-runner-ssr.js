@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/mnt/c/projects/portfolio/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
-      options: {"plugins":[]},
+      options: {"plugins":[],"output":"/sitemap.xml","createLinkInHead":true},
     },{
       plugin: require('/mnt/c/projects/portfolio/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":[{"family":"Roboto","variants":["400","700"]},{"family":"Open Sans"}]},
