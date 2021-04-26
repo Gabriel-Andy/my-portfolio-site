@@ -1099,5 +1099,10 @@ picture img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 2rem auto;
+  max-width: 90%;
+  font-size: 1.2rem;
+
+  width: 1000px;
 }
 /* end of github activities */
