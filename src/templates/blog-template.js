@@ -12,7 +12,7 @@ const ComponentName = ({ data }) => {
       <section className="blog-template">
         <div className="section-center">
           <article className="blog-content">
-            {/* <ReactMarkdown source={content} /> */}
+            <ReactMarkdown source={content} />
             <div>
               I love creating coding by building real software for company
             </div>
