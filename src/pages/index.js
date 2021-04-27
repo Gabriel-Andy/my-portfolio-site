@@ -7,7 +7,7 @@ import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
 import SEO from "../components/SEO"
-import Github from "../components/Github"
+import Github from "../../Github"
 
 const home = ({ data }) => {
   const {
