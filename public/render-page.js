@@ -111,8 +111,7 @@ const { hot } = __webpack_require__(/*! react-hot-loader/root */ "./node_modules
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": hot(preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
-  "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))),
-  "component---src-templates-blog-template-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/blog-template.js */ "./src/templates/blog-template.js")))
+  "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")))
   }
 
 
@@ -73048,7 +73047,7 @@ module.exports = JSON.parse("{\"data\":{\"site\":{\"siteMetadata\":{\"siteDescri
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":{\"allFile\":{\"nodes\":[{\"childImageSharp\":{\"fixed\":{\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABt0lEQVQ4y2OwCp3/nxRsGTIPrzgDYQNQNdiELwCzzYPmQnDwXLgciGYgxVUgWtdr5n/rsPn/XeOW/HcBYqfYxcS70BLNMPPgef+nLjn9/87Dd/8fPfv4//mrz/9PX34GNhTkUqK8DMIgFxn4zvq/fPOV/+jg3YfvYJeCvE/YhUBXgQwz9p/9Pyx3zf8/f/7+//fvH9igj59//H/49MP/Exee/HeKIcKFyJGg5z3zf37zTrirPn/9+T+qcB1YzjF6EXFhiM/AB08+/DcJmPPfAhimIEwwlpEVgGhtj+n/cxp3wA189OwD2CBQuKGrxelCC6AC24gF/7cdvPP/yq1X4JiFgR8/f/+/cO3F/xt33/zftPcmkQYCXWAXufD/Q2DygAFQhMAiBQbOAJONPjBIQEFDlIH3geGFz8B1u24Ag2TGf1toDmIglGRKOnb/r+rZ93/BuotwQ968+/q/bsKB/01TDv2PLlr/3yxwLlwfwUgBpUFFh8n/06q3IsXye3DM63rNAMc2TC1BF4JokLcNgbmkoGUXSiyDwgyEQb4gunAAKQCnQ2CBkNe0E8VAUCmErSgbNZByAwE4p+z5iXNHpAAAAABJRU5ErkJggg==\",\"width\":25,\"height\":25,\"src\":\"/static/b1e44c1c2e58d893a9f55a48e73198cc/b5811/facebook.png\",\"srcSet\":\"/static/b1e44c1c2e58d893a9f55a48e73198cc/b5811/facebook.png 1x,\\n/static/b1e44c1c2e58d893a9f55a48e73198cc/33eba/facebook.png 1.5x,\\n/static/b1e44c1c2e58d893a9f55a48e73198cc/8ba1e/facebook.png 2x\"}}},{\"childImageSharp\":{\"fixed\":{\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFcElEQVQ4yx2UiVNVVRzH70x/QDM15W6SpoGkk6i54oILNWYpZpRDCmq5pYiJJAQIJQS5gCAmubGpIOoLVN4DhETQSAQFZFEWAVl84uPxFu57910+HTgz3zlnzj33c37ne36/I6nqIDBIzysLl3O6iT7ZxqGjrYQfaSEitpmo6GccjXpKfGQDSYcaSA5r4ExIPeeDnpAZVEdBXDMd1b0MtUGBkoZgjx8Z2PRdLZ6fPmTN5w/xWlWBl8c9vnG/w6b5xez85Db+bvkETdcS5qIlcoqWWBcdx50LOOKUT4JLMVUXWoehkkFvYfeaCjbMucuu5aVsnVXEztn5RK4uIu7rYk55F3H26wLS1um4tFZL1hdaMpfdJNX1Kmffyybj41ukTs3jzEQt7WUvkYovt7L1g3wC5xTiPzmX05tLaKt/hSzbUBQHimxHHRiSjEOMHWLOMajS12OiPLycrImX0UzPJXOChrs/ViBd/b2WgA81BLtmc8ZXh4pM/d815Hx7hZzV6dxalYH203R0nunc9sygcEUaBUvOUR1RINaqVMeUkzNerHO+wu2VWqTrEeWEulwkeuoF2qo6acqrI+mdKLKmxJHrLDTmd2698yvaEZHkvxtJ4dgYqsPzued3mYcBGmw2O//MEhu9n07Jolyk3IhSot//i5RFKZiNZu5sz0IzKZpCtzhuf/ArVX5pdFytoiuvhsZgDWVOwfQ+bEJf1EiJcyw2q0y1j4Y7Y05zb3E2ki7iDokTEri2PBm7XeHehnMUCtDdSaE8i9NhFzf3+n4del0FwlX0BdVUuB6kwvkQlW4xyN19NO65SdmoeB64X0QqCS8iZVwM2mUJKAJY6Z1I6ajd1Pkkit/h6a7TVLy7jUejdtLgEYas2HkRm8vj0ft4MvswdgFsCcihfOQfPHJPRSo/pEUz8SClnx8ejrBh829UOXnxMkOHua6Zhknf0DJjj1AgdW/70ZOsxVr/gtrx/jTMCBNAAx2BGipHRlGz8DzSk5hMSt38qN3wk4jQRtveQJpnLcR4/Qam2lo6Zy6nx2MjXYu+p3XMenoTr2Nu7OTpuB00uQVj7zHQGXiFmtGh1Ln/hdR64hw1y1bRss1XAGX0Idvp+Ww6fb/tEwkEvYE76J0/A/2cBXQv82bAZEafmEvLiC20zA5CEcAX+y/xZNxBGpecROpKTqR13Xy693mJRJYxHt5E/2ZX+v0+wqxLGYaai/IwabKRzWYsj2vpnudL2xQR8cyfxJFf0xmQSsPYIAFMQHqVEkuP7zT6fl6KbOnHetIXq/9Y5J+nYtk1HuuZ3dhqilDq7zOQdoK+L1fS67Ga7lk+tM8LwGa00LEpSVhwgMal8Uh9lyIx+E/GFOSEtb2GgfJM5L1voESMxB4+GtueN5G/fwuLzwgsXuMwfTWD/lWLefnhfF7tPy5uXeX5vBCaJgbxdOlRJFNuJKbwCchRIpprW0SugVyWhJzigXJ+CUryEmzxC8T3ucgh7lj3rqB/mxfGmD8YEO+V/s8btLy3g2aXYJpXHkcaeHCBgWNOqKlzsae5It8Pwj7Qg02xYZeN4kEw4LAKWYTMBhSTUczLokL6MZ7PoGO6D88/2k+T037at6ch2Y3t2LJXol5fhKNwjdBylH9E/98ulMqDKA9+wXE/BEfxAew3hGdp27HGbKTP15PexUvpcvfl+bQA4WEAhoIaJFUcUekqQbm7AfVfb9SqraiPtqBWfof64FsGy9ajFosNbniiXlyMkjAHOXQmpq3zeP3lCro+WUvz5B/QH8tjiCUxqA4PFGs7jq5s1PZTqC+ShETfIdQqSrLxCPZqUUnlYSgFwpKsAKyJe+gL3YchKgFjae0wY6j9D3KIoVm7FOTTAAAAAElFTkSuQmCC\",\"width\":25,\"height\":25,\"src\":\"/static/295dcd07e23157299fc41d5ad739be2f/b5811/instagram.png\",\"srcSet\":\"/static/295dcd07e23157299fc41d5ad739be2f/b5811/instagram.png 1x,\\n/static/295dcd07e23157299fc41d5ad739be2f/33eba/instagram.png 1.5x,\\n/static/295dcd07e23157299fc41d5ad739be2f/8ba1e/instagram.png 2x\"}}},{\"childImageSharp\":{\"fixed\":{\"base64\":\"data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EABcBAQEBAQAAAAAAAAAAAAAAAAACAQT/2gAMAwEAAhADEAAAAd67rhzQmgg1/8QAGBAAAgMAAAAAAAAAAAAAAAAAAAEQESD/2gAIAQEAAQUCKha//8QAFREBAQAAAAAAAAAAAAAAAAAAESD/2gAIAQMBAT8BI//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABUQAQEAAAAAAAAAAAAAAAAAACBB/9oACAEBAAY/AhD/AP/EABsQAAIDAAMAAAAAAAAAAAAAAAERACExECBx/9oACAEBAAE/IU6EYB1xvQPYbG9f/9oADAMBAAIAAwAAABAg77z/xAAWEQEBAQAAAAAAAAAAAAAAAAABESD/2gAIAQMBAT8QAlx//8QAFREBAQAAAAAAAAAAAAAAAAAAESD/2gAIAQIBAT8QY//EABoQAQADAQEBAAAAAAAAAAAAAAEAETEhEEH/2gAIAQEAAT8QEjRY3RQg8fjj4NWDp8MrSFQHFwwm+OS5/9k=\",\"width\":25,\"height\":25,\"src\":\"/static/1b61b3592d197c4bd2f8819a1df2d2e9/d0f88/homeis.jpg\",\"srcSet\":\"/static/1b61b3592d197c4bd2f8819a1df2d2e9/d0f88/homeis.jpg 1x,\\n/static/1b61b3592d197c4bd2f8819a1df2d2e9/2c40d/homeis.jpg 1.5x,\\n/static/1b61b3592d197c4bd2f8819a1df2d2e9/99438/homeis.jpg 2x\"}}},{\"childImageSharp\":{\"fixed\":{\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLUlEQVQ4y61U3UtUURDff6O00KzUNbNAkJ6C3nzxJQWffBIhDP+C6EV6rh6jV3W3MgsRQvILP6IwCgoKQ7q7t3U3b+pautru/fh55uydu+d+bGR0YJg7c2d+5zdn5pxY0+M0/qfE/iaokfWjlKv9/khADvYlqqDC1yx0y5M04sENldwQYLzKBuSvT6RwYuQrTo9pXtx5j3WqAsgG/aRgZkOav8l/bSqDoVcGul/mcErYFN82rvtAPYbnhHHpqY7hd9vyR11CwwVRHgmB3VwxULQc8JpK7yO5/gudLzZwJlHe1GNIBjmvTmZg2Q7mNgroeP5Nllc7qqF1PI1swZRABGo7ZeDsvonrgi0D+hhyyW82D2Xwj0MLDz7toms6i56ZHAqmLf2OADPtMuC9j3nUjGq+JsVUsIuCycPPP70EXoWSLZkHAQeXDZwc0WTny+cd6DL9WNstymBKInGcCjh9swhLlqt23NfluNvJ3tkc9L2SL7kCAliuXssXQ+MlAXnqWRqSKSyIpqiMVIYlt9xbq1uy3DiXG2TIgNSxgcVNfBGll5Rzo84WXXsheyA3jrzLjcpQ8rWi0m8sGdj5bfmaQOu1mILLEzrOJiujEglIg31FzN59MQqZPRPBZRxYckz4WJqr3PnQHLY/09E3/x23327j7oc87rzfQb84AvLTmanXsmrJLOSgUmhYKZl0javJTw1o+gNYiKH64lCyKqEX6DgPbBSDqPP65xf7OHIEcASiaTvWwtMAAAAASUVORK5CYII=\",\"width\":25,\"height\":25,\"src\":\"/static/064b8fdf4277a06a1511d237c3be1ed4/b5811/twitter.png\",\"srcSet\":\"/static/064b8fdf4277a06a1511d237c3be1ed4/b5811/twitter.png 1x,\\n/static/064b8fdf4277a06a1511d237c3be1ed4/33eba/twitter.png 1.5x,\\n/static/064b8fdf4277a06a1511d237c3be1ed4/8ba1e/twitter.png 2x\"}}},{\"childImageSharp\":{\"fixed\":{\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWMAAAFjAFA0vgMAAACV0lEQVQ4y+1Uy1NScRS+vEEe8tKsRTI9xDalm9Im2WQ4KY5ppOZMZbYDNya4EkTHLLTc5H/ALjfGMv4A28AO2zLjAhYMBA4MDDN83XOc66MWLWpXd+Y359zz+M53zvndK5hNrfibR/iHAVuNJpZWswU2i5Xl2UDJL0lLq/mcLvmEn4PlggyCIEAhk8NkMPIhOyVRIYoztOihVWtYN+mN0KjUHMcMJTAKIlbTU9NYCgQxNTmJNpudgciu02i5mFFvwLUrV9F3+w4XutRxEf19/ehov3DassQg8SUBeiqVCvL5PG44u/Ht4ACBxUU4Oh2Y9/uZ/Up4BaVSCTqR5cjDYTQaDdwVQcknWC0WrjzzdIbBXs7OsqNFq2NWsVgMw2ISgdLjvN6FtdU1LioT44bcbjSbTZbdXU4IdquNAaLvoiiXy8x0KRjEZnQTg/cHkUqlsPNxB+l0mgG/7u/j7cYG68lkEplMBsViEW/W15n1CeD7rS02EODup11OWI1EkM1mERFbnPf52UazCi0vs779YRvxeJwBqUi9XodAmyPqL54956AnXi8PnloKh0I4PDxEMBA48R/PMIyj8hHrrgEXSt9LYkdR1Gq106XQJhOJ46UUCgWWrxcWkMvlGNh1b4Btn/f2OLlarXLhifFxZub3+ZjEuWtD7RJDmuGjsTG029vgGfGg5+Ytvnfeicd4NTeH3p5ejHpG+e45LncyKI1i6IH714tNF5paUcoVnKBSKHnjVEwp+mg8tH2yUw6xlGLVStXvPz2S0mdGuvRO8myOJIX//8M/Pj8ArGiFbzpJ8A8AAAAASUVORK5CYII=\",\"width\":25,\"height\":25,\"src\":\"/static/c454f576e81327007da6df4e4f414a2a/b5811/github.png\",\"srcSet\":\"/static/c454f576e81327007da6df4e4f414a2a/b5811/github.png 1x,\\n/static/c454f576e81327007da6df4e4f414a2a/33eba/github.png 1.5x,\\n/static/c454f576e81327007da6df4e4f414a2a/8ba1e/github.png 2x\"}}}]}}}");
+module.exports = JSON.parse("{\"data\":{\"allFile\":{\"nodes\":[{\"childImageSharp\":{\"fixed\":{\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABt0lEQVQ4y2OwCp3/nxRsGTIPrzgDYQNQNdiELwCzzYPmQnDwXLgciGYgxVUgWtdr5n/rsPn/XeOW/HcBYqfYxcS70BLNMPPgef+nLjn9/87Dd/8fPfv4//mrz/9PX34GNhTkUqK8DMIgFxn4zvq/fPOV/+jg3YfvYJeCvE/YhUBXgQwz9p/9Pyx3zf8/f/7+//fvH9igj59//H/49MP/Exee/HeKIcKFyJGg5z3zf37zTrirPn/9+T+qcB1YzjF6EXFhiM/AB08+/DcJmPPfAhimIEwwlpEVgGhtj+n/cxp3wA189OwD2CBQuKGrxelCC6AC24gF/7cdvPP/yq1X4JiFgR8/f/+/cO3F/xt33/zftPcmkQYCXWAXufD/Q2DygAFQhMAiBQbOAJONPjBIQEFDlIH3geGFz8B1u24Ag2TGf1toDmIglGRKOnb/r+rZ93/BuotwQ968+/q/bsKB/01TDv2PLlr/3yxwLlwfwUgBpUFFh8n/06q3IsXye3DM63rNAMc2TC1BF4JokLcNgbmkoGUXSiyDwgyEQb4gunAAKQCnQ2CBkNe0E8VAUCmErSgbNZByAwE4p+z5iXNHpAAAAABJRU5ErkJggg==\",\"width\":25,\"height\":25,\"src\":\"/static/b1e44c1c2e58d893a9f55a48e73198cc/b5811/facebook.png\",\"srcSet\":\"/static/b1e44c1c2e58d893a9f55a48e73198cc/b5811/facebook.png 1x,\\n/static/b1e44c1c2e58d893a9f55a48e73198cc/33eba/facebook.png 1.5x,\\n/static/b1e44c1c2e58d893a9f55a48e73198cc/8ba1e/facebook.png 2x\"}}},{\"childImageSharp\":{\"fixed\":{\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWMAAAFjAFA0vgMAAACV0lEQVQ4y+1Uy1NScRS+vEEe8tKsRTI9xDalm9Im2WQ4KY5ppOZMZbYDNya4EkTHLLTc5H/ALjfGMv4A28AO2zLjAhYMBA4MDDN83XOc66MWLWpXd+Y359zz+M53zvndK5hNrfibR/iHAVuNJpZWswU2i5Xl2UDJL0lLq/mcLvmEn4PlggyCIEAhk8NkMPIhOyVRIYoztOihVWtYN+mN0KjUHMcMJTAKIlbTU9NYCgQxNTmJNpudgciu02i5mFFvwLUrV9F3+w4XutRxEf19/ehov3DassQg8SUBeiqVCvL5PG44u/Ht4ACBxUU4Oh2Y9/uZ/Up4BaVSCTqR5cjDYTQaDdwVQcknWC0WrjzzdIbBXs7OsqNFq2NWsVgMw2ISgdLjvN6FtdU1LioT44bcbjSbTZbdXU4IdquNAaLvoiiXy8x0KRjEZnQTg/cHkUqlsPNxB+l0mgG/7u/j7cYG68lkEplMBsViEW/W15n1CeD7rS02EODup11OWI1EkM1mERFbnPf52UazCi0vs779YRvxeJwBqUi9XodAmyPqL54956AnXi8PnloKh0I4PDxEMBA48R/PMIyj8hHrrgEXSt9LYkdR1Gq106XQJhOJ46UUCgWWrxcWkMvlGNh1b4Btn/f2OLlarXLhifFxZub3+ZjEuWtD7RJDmuGjsTG029vgGfGg5+Ytvnfeicd4NTeH3p5ejHpG+e45LncyKI1i6IH714tNF5paUcoVnKBSKHnjVEwp+mg8tH2yUw6xlGLVStXvPz2S0mdGuvRO8myOJIX//8M/Pj8ArGiFbzpJ8A8AAAAASUVORK5CYII=\",\"width\":25,\"height\":25,\"src\":\"/static/c454f576e81327007da6df4e4f414a2a/b5811/github.png\",\"srcSet\":\"/static/c454f576e81327007da6df4e4f414a2a/b5811/github.png 1x,\\n/static/c454f576e81327007da6df4e4f414a2a/33eba/github.png 1.5x,\\n/static/c454f576e81327007da6df4e4f414a2a/8ba1e/github.png 2x\"}}},{\"childImageSharp\":{\"fixed\":{\"base64\":\"data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EABcBAQEBAQAAAAAAAAAAAAAAAAACAQT/2gAMAwEAAhADEAAAAd67rhzQmgg1/8QAGBAAAgMAAAAAAAAAAAAAAAAAAAEQESD/2gAIAQEAAQUCKha//8QAFREBAQAAAAAAAAAAAAAAAAAAESD/2gAIAQMBAT8BI//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABUQAQEAAAAAAAAAAAAAAAAAACBB/9oACAEBAAY/AhD/AP/EABsQAAIDAAMAAAAAAAAAAAAAAAERACExECBx/9oACAEBAAE/IU6EYB1xvQPYbG9f/9oADAMBAAIAAwAAABAg77z/xAAWEQEBAQAAAAAAAAAAAAAAAAABESD/2gAIAQMBAT8QAlx//8QAFREBAQAAAAAAAAAAAAAAAAAAESD/2gAIAQIBAT8QY//EABoQAQADAQEBAAAAAAAAAAAAAAEAETEhEEH/2gAIAQEAAT8QEjRY3RQg8fjj4NWDp8MrSFQHFwwm+OS5/9k=\",\"width\":25,\"height\":25,\"src\":\"/static/1b61b3592d197c4bd2f8819a1df2d2e9/d0f88/homeis.jpg\",\"srcSet\":\"/static/1b61b3592d197c4bd2f8819a1df2d2e9/d0f88/homeis.jpg 1x,\\n/static/1b61b3592d197c4bd2f8819a1df2d2e9/2c40d/homeis.jpg 1.5x,\\n/static/1b61b3592d197c4bd2f8819a1df2d2e9/99438/homeis.jpg 2x\"}}},{\"childImageSharp\":{\"fixed\":{\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFcElEQVQ4yx2UiVNVVRzH70x/QDM15W6SpoGkk6i54oILNWYpZpRDCmq5pYiJJAQIJQS5gCAmubGpIOoLVN4DhETQSAQFZFEWAVl84uPxFu57910+HTgz3zlnzj33c37ne36/I6nqIDBIzysLl3O6iT7ZxqGjrYQfaSEitpmo6GccjXpKfGQDSYcaSA5r4ExIPeeDnpAZVEdBXDMd1b0MtUGBkoZgjx8Z2PRdLZ6fPmTN5w/xWlWBl8c9vnG/w6b5xez85Db+bvkETdcS5qIlcoqWWBcdx50LOOKUT4JLMVUXWoehkkFvYfeaCjbMucuu5aVsnVXEztn5RK4uIu7rYk55F3H26wLS1um4tFZL1hdaMpfdJNX1Kmffyybj41ukTs3jzEQt7WUvkYovt7L1g3wC5xTiPzmX05tLaKt/hSzbUBQHimxHHRiSjEOMHWLOMajS12OiPLycrImX0UzPJXOChrs/ViBd/b2WgA81BLtmc8ZXh4pM/d815Hx7hZzV6dxalYH203R0nunc9sygcEUaBUvOUR1RINaqVMeUkzNerHO+wu2VWqTrEeWEulwkeuoF2qo6acqrI+mdKLKmxJHrLDTmd2698yvaEZHkvxtJ4dgYqsPzued3mYcBGmw2O//MEhu9n07Jolyk3IhSot//i5RFKZiNZu5sz0IzKZpCtzhuf/ArVX5pdFytoiuvhsZgDWVOwfQ+bEJf1EiJcyw2q0y1j4Y7Y05zb3E2ki7iDokTEri2PBm7XeHehnMUCtDdSaE8i9NhFzf3+n4del0FwlX0BdVUuB6kwvkQlW4xyN19NO65SdmoeB64X0QqCS8iZVwM2mUJKAJY6Z1I6ajd1Pkkit/h6a7TVLy7jUejdtLgEYas2HkRm8vj0ft4MvswdgFsCcihfOQfPHJPRSo/pEUz8SClnx8ejrBh829UOXnxMkOHua6Zhknf0DJjj1AgdW/70ZOsxVr/gtrx/jTMCBNAAx2BGipHRlGz8DzSk5hMSt38qN3wk4jQRtveQJpnLcR4/Qam2lo6Zy6nx2MjXYu+p3XMenoTr2Nu7OTpuB00uQVj7zHQGXiFmtGh1Ln/hdR64hw1y1bRss1XAGX0Idvp+Ww6fb/tEwkEvYE76J0/A/2cBXQv82bAZEafmEvLiC20zA5CEcAX+y/xZNxBGpecROpKTqR13Xy693mJRJYxHt5E/2ZX+v0+wqxLGYaai/IwabKRzWYsj2vpnudL2xQR8cyfxJFf0xmQSsPYIAFMQHqVEkuP7zT6fl6KbOnHetIXq/9Y5J+nYtk1HuuZ3dhqilDq7zOQdoK+L1fS67Ga7lk+tM8LwGa00LEpSVhwgMal8Uh9lyIx+E/GFOSEtb2GgfJM5L1voESMxB4+GtueN5G/fwuLzwgsXuMwfTWD/lWLefnhfF7tPy5uXeX5vBCaJgbxdOlRJFNuJKbwCchRIpprW0SugVyWhJzigXJ+CUryEmzxC8T3ucgh7lj3rqB/mxfGmD8YEO+V/s8btLy3g2aXYJpXHkcaeHCBgWNOqKlzsae5It8Pwj7Qg02xYZeN4kEw4LAKWYTMBhSTUczLokL6MZ7PoGO6D88/2k+T037at6ch2Y3t2LJXol5fhKNwjdBylH9E/98ulMqDKA9+wXE/BEfxAew3hGdp27HGbKTP15PexUvpcvfl+bQA4WEAhoIaJFUcUekqQbm7AfVfb9SqraiPtqBWfof64FsGy9ajFosNbniiXlyMkjAHOXQmpq3zeP3lCro+WUvz5B/QH8tjiCUxqA4PFGs7jq5s1PZTqC+ShETfIdQqSrLxCPZqUUnlYSgFwpKsAKyJe+gL3YchKgFjae0wY6j9D3KIoVm7FOTTAAAAAElFTkSuQmCC\",\"width\":25,\"height\":25,\"src\":\"/static/295dcd07e23157299fc41d5ad739be2f/b5811/instagram.png\",\"srcSet\":\"/static/295dcd07e23157299fc41d5ad739be2f/b5811/instagram.png 1x,\\n/static/295dcd07e23157299fc41d5ad739be2f/33eba/instagram.png 1.5x,\\n/static/295dcd07e23157299fc41d5ad739be2f/8ba1e/instagram.png 2x\"}}},{\"childImageSharp\":{\"fixed\":{\"base64\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLUlEQVQ4y61U3UtUURDff6O00KzUNbNAkJ6C3nzxJQWffBIhDP+C6EV6rh6jV3W3MgsRQvILP6IwCgoKQ7q7t3U3b+pautru/fh55uydu+d+bGR0YJg7c2d+5zdn5pxY0+M0/qfE/iaokfWjlKv9/khADvYlqqDC1yx0y5M04sENldwQYLzKBuSvT6RwYuQrTo9pXtx5j3WqAsgG/aRgZkOav8l/bSqDoVcGul/mcErYFN82rvtAPYbnhHHpqY7hd9vyR11CwwVRHgmB3VwxULQc8JpK7yO5/gudLzZwJlHe1GNIBjmvTmZg2Q7mNgroeP5Nllc7qqF1PI1swZRABGo7ZeDsvonrgi0D+hhyyW82D2Xwj0MLDz7toms6i56ZHAqmLf2OADPtMuC9j3nUjGq+JsVUsIuCycPPP70EXoWSLZkHAQeXDZwc0WTny+cd6DL9WNstymBKInGcCjh9swhLlqt23NfluNvJ3tkc9L2SL7kCAliuXssXQ+MlAXnqWRqSKSyIpqiMVIYlt9xbq1uy3DiXG2TIgNSxgcVNfBGll5Rzo84WXXsheyA3jrzLjcpQ8rWi0m8sGdj5bfmaQOu1mILLEzrOJiujEglIg31FzN59MQqZPRPBZRxYckz4WJqr3PnQHLY/09E3/x23327j7oc87rzfQb84AvLTmanXsmrJLOSgUmhYKZl0javJTw1o+gNYiKH64lCyKqEX6DgPbBSDqPP65xf7OHIEcASiaTvWwtMAAAAASUVORK5CYII=\",\"width\":25,\"height\":25,\"src\":\"/static/064b8fdf4277a06a1511d237c3be1ed4/b5811/twitter.png\",\"srcSet\":\"/static/064b8fdf4277a06a1511d237c3be1ed4/b5811/twitter.png 1x,\\n/static/064b8fdf4277a06a1511d237c3be1ed4/33eba/twitter.png 1.5x,\\n/static/064b8fdf4277a06a1511d237c3be1ed4/8ba1e/twitter.png 2x\"}}}]}}}");
 
 /***/ }),
 
@@ -73099,7 +73098,11 @@ const Blog = ({
     className: "blog-img"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "blog-card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    className: "titleDescription"
+  }, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "description-paragraph"
+  }, description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "blog-footer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, category), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " ", date)))));
 };
@@ -73656,11 +73659,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const Title = ({
-  title
+  title,
+  specificTitle
 }) => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "section-title"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, title || "default title"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: specificTitle ? "specificTitle" : null
+  }, title || "default title"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "underline"
   }));
 };
@@ -73957,127 +73963,6 @@ const home = ({
 
 const query = "4116408308";
 /* harmony default export */ __webpack_exports__["default"] = (home);
-
-/***/ }),
-
-/***/ "./src/templates/blog-template.js":
-/*!****************************************!*\
-  !*** ./src/templates/blog-template.js ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
-/* harmony import */ var _components_SEO__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/SEO */ "./src/components/SEO.js");
-/* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gatsby-image */ "./node_modules/gatsby-image/index.js");
-/* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(gatsby_image__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_Title__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Title */ "./src/components/Title.js");
-/* harmony import */ var _constants_SocialMediaLinks__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../constants/SocialMediaLinks */ "./src/constants/SocialMediaLinks.js");
-
-
-
-
-
-
-
-
-const ComponentName = ({
-  data
-}) => {
-  const {
-    blog
-  } = data;
-
-  if (!blog) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "error"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "no such blog could be found..."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-      to: "/blog/",
-      className: "btn-primary"
-    }, "back to blogs"));
-  }
-
-  const {
-    title,
-    description,
-    introduction,
-    body,
-    conclusion
-  } = blog;
-
-  const Introduction = () => {
-    const Intro = introduction.map(uniqueIntro => {
-      const {
-        description,
-        id,
-        titleImage
-      } = uniqueIntro;
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        key: id
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, " ", titleImage && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby_image__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        fixed: titleImage.childImageSharp.fixed
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "description-paragraph"
-      }, description));
-    });
-    return Intro;
-  };
-
-  const bodies = () => {
-    const bodyIntro = body.map(uniquebody => {
-      const {
-        id,
-        title,
-        description,
-        titleImage
-      } = uniquebody;
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        key: id
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, " ", titleImage && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby_image__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        fixed: titleImage.childImageSharp.fixed
-      }))));
-    });
-    return bodyIntro;
-  };
-
-  const conclusions = () => {
-    const conclusionIntro = conclusion.map(item => {
-      const {
-        description,
-        id,
-        shareLinks
-      } = item;
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        key: id,
-        className: "description-paragraph"
-      }, description), shareLinks && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " you can read this by clicking this link"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: shareLinks
-      })));
-    });
-    return conclusionIntro;
-  };
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SEO__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    title: title,
-    description: description
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "blog-template"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "section-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    title: title
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-    className: "blog-content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, Introduction()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, bodies()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, conclusions()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "you can follow us here:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_constants_SocialMediaLinks__WEBPACK_IMPORTED_MODULE_6__["default"], null)))));
-};
-
-const query = "149120653";
-/* harmony default export */ __webpack_exports__["default"] = (ComponentName);
 
 /***/ }),
 

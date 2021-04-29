@@ -13,6 +13,9 @@ module.exports = {
     image: "/twitter-img.jpg",
     siteUrl: "https://fonogabriel.netlify.app",
   },
+  flags: {
+    PRESERVE_WEBPACK_CACHE: true,
+  },
   plugins: [
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,

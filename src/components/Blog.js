@@ -8,8 +8,8 @@ const Blog = ({ id, title, image, date, category, slug, description }) => {
       <article>
         <Image fluid={image.childImageSharp.fluid} className="blog-img" />
         <div className="blog-card">
-          <h4>{title}</h4>
-          <p>{description}</p>
+          <h4 className="titleDescription">{title}</h4>
+          <p className="description-paragraph">{description}</p>
           <div className="blog-footer">
             <p>{category}</p>
             <p> {date}</p>

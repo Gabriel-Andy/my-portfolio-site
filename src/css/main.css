@@ -69,6 +69,8 @@ h4 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
+  /* line-height: 2; */
+  font-size: 2rem;
   font-family: var(--ff-primary);
 }
 h1 {
@@ -76,6 +78,7 @@ h1 {
 }
 h2 {
   font-size: 2rem;
+  margin-top: 2rem;
 }
 h3 {
   font-size: 1.25rem;
@@ -163,14 +166,14 @@ p {
   width: 5rem;
   height: 0.25rem;
   margin-bottom: 1.25rem;
+
   background: var(--clr-primary-5);
   margin-left: auto;
   margin-right: auto;
 }
 
 .section-title {
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin: 2rem auto;
   text-align: center;
 }
 .bg-grey {
@@ -778,6 +781,8 @@ picture img {
 }
 .blog-card h4 {
   color: var(--clr-grey-1);
+
+  line-height: 1.5;
 }
 
 .blog-footer {
@@ -907,7 +912,7 @@ picture img {
 .education-page,
 .contact-page {
   background: var(--clr-grey-10);
-  min-height: calc(100vh - 5rem - 9rem);
+  min-height: calc(100vh - 5rem);
 }
 .error-page {
   display: grid;
@@ -946,6 +951,7 @@ picture img {
 }
 .about-text p {
   line-height: 2;
+  font-size: 1.2rem;
 }
 .stack-container {
   width: 30rem;
@@ -981,16 +987,21 @@ picture img {
   }
 }
 /* end of the about page section */
+/* start of the education section */
 .container-graduation {
   display: grid;
   grid-template-columns: auto;
   grid-column-gap: 2rem;
+}
+.container-graduation h4 {
+  font-size: 1.1rem;
 }
 .graduation-progress {
   display: flex;
   justify-content: left;
   align-items: center;
 }
+
 .icon {
   display: block;
 }
@@ -1001,13 +1012,18 @@ picture img {
 
   margin-left: 0.5rem;
 }
-.description-education {
+.container-graduation ul li {
   font-size: 1rem;
+}
+
+.description-education {
+  font-size: 1.2rem;
   font-weight: 200;
-  margin-bottom: 2rem;
+  text-align: justify;
+  font-weight: 200;
+  margin: 2rem auto;
   letter-spacing: 0.05rem;
 }
-/* start of the education section */
 
 /* end of the education section */
 .education-page {
@@ -1054,7 +1070,7 @@ picture img {
 
 /* star the blog template */
 .blog-template {
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 
 .blog-template h1,
@@ -1106,3 +1122,39 @@ picture img {
   width: 1000px;
 }
 /* end of github activities */
+/* start of the singleblog */
+.body-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.section-center-single-blog {
+  max-width: 750px;
+  width: 90%;
+}
+.specificTitle {
+  font-size: 1.5rem;
+  line-height: 30px;
+  text-align: justify;
+}
+.description-paragraph {
+  font-size: 1.2rem;
+  line-height: 30px;
+  margin: 1.5rem auto 1rem;
+  text-align: justify;
+}
+.titleDescription {
+  font-size: 1rem;
+}
+span {
+  font-size: 1.2rem;
+}
+.connection {
+  font-weight: 600;
+  color: black;
+}
+/* end of the singleblog */
+/* picture img {
+  height: fit-content !important;
+} */

@@ -38,14 +38,16 @@ const Education = ({ title }) => {
                 </h4>
               </div>
 
-              <h4>resources I used to teach myself coding at home </h4>
+              <h4>
+                resources I used to teach myself coding at home full time{" "}
+              </h4>
               <ul>
                 {Resources.map(resource => {
                   return <li key={resource.id}>{resource.resource}</li>
                 })}
               </ul>
               <h4 className="graduation-progress">
-                graduated with the bachelor degree in civil engineering on May
+                I graduated with the bachelor degree in civil engineering on May
                 2016 with 4.2 GPA
               </h4>
             </div>

@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
-import Image from "gatsby-image"
+import Img from "gatsby-image"
 import Title from "../components/Title"
 import SocialMediaLinks from "../constants/SocialMediaLinks"
 
@@ -27,7 +27,7 @@ const ComponentName = ({ data }) => {
         <div key={id}>
           <div>
             {" "}
-            {titleImage && <Image fixed={titleImage.childImageSharp.fixed} />}
+            {titleImage && <Img fluid={titleImage.childImageSharp.fluid} />}
           </div>
           <p className="description-paragraph">{description}</p>
         </div>
@@ -42,10 +42,10 @@ const ComponentName = ({ data }) => {
         <div>
           <div key={id}>
             <h2>{title}</h2>
-            <p>{description}</p>
+            <p className="description-paragraph">{description}</p>
             <div>
               {" "}
-              {titleImage && <Image fixed={titleImage.childImageSharp.fixed} />}
+              {titleImage && <Img fluid={titleImage.childImageSharp.fluid} />}
             </div>
           </div>
         </div>
@@ -65,15 +65,23 @@ const ComponentName = ({ data }) => {
 
           {shareLinks && (
             <>
-              <p>
+              <p className="description-paragraph">
                 {" "}
                 thanks for reading this article, you can checkout one of my
                 sites here at{" "}
               </p>
-              <a href={shareLinks}></a>
-              <p>
-                also, I am open for any criticisms and I look forward to improve
+              <span>
+                <a className="connection" href={shareLinks}>
+                  webdevadvice.com
+                </a>
+              </span>
+              <p className="description-paragraph">
+                also, I am open for any criticisms and I look forward to
+                improve. <br></br> we can collaborate through email at:{" "}
+                <br></br>
+                <span className="connection"> fonoandy@gmail.com </span>
               </p>
+              
             </>
           )}
         </div>
@@ -86,8 +94,9 @@ const ComponentName = ({ data }) => {
     <Layout>
       <SEO title={title} description={description} />
       <section className="blog-template">
-        <div className="section-center">
-          <Title title={title} />
+        <div className="section-center section-center-single-blog">
+          <Title title={title} specificTitle />
+
           <article className="blog-content">
             <div>{Introduction()}</div>
             <div>{bodies()}</div>
@@ -108,8 +117,8 @@ export const query = graphql`
         title
         titleImage {
           childImageSharp {
-            fixed {
-              ...GatsbyImageSharpFixed
+            fluid(maxWidth: 300, maxHeight: 300, quality: 100) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
@@ -126,8 +135,8 @@ export const query = graphql`
         id
         titleImage {
           childImageSharp {
-            fixed {
-              ...GatsbyImageSharpFixed
+            fluid(maxWidth: 400, maxHeight: 400, quality: 100) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
